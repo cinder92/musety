@@ -18,4 +18,4 @@ Thanks to [MUSE](https://dribbble.com/siyumiao) for this awesome design.
 # TODO
 
 - [x] Test on Android
-- [ ] Test on iOS
+- [x] Test on iOS
