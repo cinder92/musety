@@ -8,3 +8,14 @@ Thanks to [MUSE](https://dribbble.com/siyumiao) for this awesome design.
 # How to use it
 
 `npm i && react-native run-android`
+
+# Used packages
+
+- [x] [react-native-navigation](https://github.com/wix/react-native-navigation)
+- [x] [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+- [x] [react-native-masonry](https://github.com/fengmu456/react-native-masonry-layout) 
+
+# TODO
+
+- [x] Test on Android
+- [ ] Test on iOS
