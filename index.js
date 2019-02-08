@@ -7,6 +7,7 @@ Object.keys(sections).map((page,index) => {
 })
 
 //https://github.com/wix/react-native-navigation/issues/4646
+//https://github.com/wix/react-native-navigation/issues/4691
 
 
 Navigation.events().registerAppLaunchedListener(() => {

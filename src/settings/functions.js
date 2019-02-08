@@ -24,8 +24,8 @@ export function navigateTo(page,props = {},options = {}){
     })
 }
 
-export function pop(){
-    Navigation.pop("Musety")
+export function pop(page){
+    Navigation.pop(page)
 }
 
 export function popTo(page,props,options){

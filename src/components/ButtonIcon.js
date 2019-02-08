@@ -2,18 +2,25 @@ import React from 'react'
 import {
     View,
     TouchableNativeFeedback,
+    TouchableOpacity,
+    Platform,
     StyleSheet
 } from 'react-native'
 import {Icon} from '../components'
 
+const Button = Platform.select({
+    ios : TouchableOpacity,
+    android : TouchableNativeFeedback
+})
+
 const ButtonIcon = (props) => {
     return(
         <View style={[props.style, ((props.type && props.type == "circular") ? styles.circular : {},styles.button)]}>
-            <TouchableNativeFeedback onPress={() => props.onPress()} background={TouchableNativeFeedback.Ripple('#ccc', true)}>
+            <Button onPress={() => props.onPress()} background={TouchableNativeFeedback.Ripple('#ccc', true)}>
                 <View style={{backgroundColor:"transparent"}}>
                     <Icon name={props.icon} color={props.color} size={props.size}  />
                 </View>
-            </TouchableNativeFeedback>
+            </Button>
         </View>
     )
 }

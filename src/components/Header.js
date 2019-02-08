@@ -2,7 +2,8 @@ import React from 'react'
 import {
     View,
     StyleSheet,
-    Text
+    Text,
+    Platform
 } from 'react-native'
 import {ButtonIcon} from '../components'
 
@@ -39,7 +40,8 @@ const Header = (props) => {
 const styles = StyleSheet.create({
     container : {
         padding : 10,
-        height : 56
+        height : Platform.OS === "ios" ? 64 : 56,
+        paddingTop : Platform.OS === "ios" ? 20 : 0
     },
 
     row : {

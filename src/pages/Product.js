@@ -59,7 +59,7 @@ class Product extends Component{
                         type:"circular",
                         color:colors.black,
                         onPress : () => {
-                            functions.pop()
+                            functions.pop(this.props.componentId)
                         }
                     }]}
                     title={"DETAILS"}

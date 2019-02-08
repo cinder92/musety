@@ -40,7 +40,7 @@ class Store extends Component{
                         size : 28,
                         type : "circular",
                         onPress : () => {
-                            functions.pop()
+                            functions.pop(this.props.componentId)
                         }
                     }]}
                 />
