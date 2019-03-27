@@ -4543,6 +4543,11 @@ react-lifecycles-compat@2.0.0:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-2.0.0.tgz#71d9c4cde47114c4102454f76da055c2bc48c948"
   integrity sha512-txfpPCQYiazVdcbMRhatqWKcAxJweUu2wDXvts5/7Wyp6+Y9cHojqXHsLPEckzutfHlxZhG8Oiundbmp8Fd6eQ==
 
+react-native-material-shadows@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-material-shadows/-/react-native-material-shadows-0.0.2.tgz#024a50b097423325c6e51f93298c4ab1b226e7f5"
+  integrity sha512-igZWUvc9qCHk6vN0sR4bktBixrSHMwmy8n/sNQC9EqxoOcp0ChWF82hujPp9XqbVii7ZX0E3FGiYCWFtGfPHVA==
+
 react-native-navigation@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-native-navigation/-/react-native-navigation-2.9.0.tgz#52657540728919d0ccd20dfb6aaa6d0d0cd0319f"

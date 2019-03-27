@@ -5,12 +5,13 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "ios" : "react-native run-ios --simulator='iPhone 7'",
+    "ios": "react-native run-ios --simulator='iPhone 7'",
     "android": "cd ./android && ./gradlew app:assembleDebug && ./gradlew installDebug"
   },
   "dependencies": {
     "react": "16.6.3",
     "react-native": "0.58.4",
+    "react-native-material-shadows": "^0.0.2",
     "react-native-navigation": "^2.9.0",
     "react-native-vector-icons": "^6.2.0"
   },

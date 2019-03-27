@@ -1,8 +1,19 @@
 rootProject.name = 'musety'
+include ':react-native-material-shadows'
+project(':react-native-material-shadows').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-material-shadows/android')
+
 include ':react-native-vector-icons'
 project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
 
 include ':react-native-navigation'
 project(':react-native-navigation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-navigation/lib/android/app/')
+
+
+/*include ':react-native-mercado-pago'
+project(':react-native-mercado-pago').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mercado-pago/android/')
+
+include ':react-native-crazy-shadow'
+project(':react-native-crazy-shadow').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-crazy-shadow/android/')*/
+
 
 include ':app'

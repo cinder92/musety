@@ -3,6 +3,7 @@ package com.musety;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import ui.materialshadows.RNMaterialShadowsPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -13,6 +14,12 @@ import com.facebook.soloader.SoLoader;
 import com.reactnativenavigation.NavigationApplication;
 import com.reactnativenavigation.react.NavigationReactNativeHost;
 import com.reactnativenavigation.react.ReactGateway;
+
+//mercadopago
+//import com.cinder92.mercadopago.RNMercadoPagoPackage;
+
+//crazyShadow
+import com.cinder92.crazyshadow.RNCrazyShadowPackage;
 
 import com.oblador.vectoricons.VectorIconsPackage;
 
@@ -41,7 +48,10 @@ public class MainApplication extends NavigationApplication {
         // Add additional packages you require here
         // No need to add RnnPackage and MainReactPackage
         return Arrays.<ReactPackage>asList(
-            new VectorIconsPackage()
+            new VectorIconsPackage(),
+            //new RNMercadoPagoPackage(),
+                new RNCrazyShadowPackage(),
+                new RNMaterialShadowsPackage()
         );
     }
   
@@ -62,6 +72,7 @@ public class MainApplication extends NavigationApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNMaterialShadowsPackage(),
             new VectorIconsPackage()
       );
     }

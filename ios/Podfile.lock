@@ -1,0 +1,119 @@
+PODS:
+  - FXBlurView (1.6.4)
+  - JRSwizzle (1.0)
+  - MercadoPagoSDK (4.0.12):
+    - MercadoPagoSDK/Default (= 4.0.12)
+  - MercadoPagoSDK/Default (4.0.12):
+    - MLUI (~> 5.0)
+  - MLUI (5.3.0):
+    - MLUI/ActionButton (= 5.3.0)
+    - MLUI/Core (= 5.3.0)
+    - MLUI/Helpers (= 5.3.0)
+    - MLUI/MLButton (= 5.3.0)
+    - MLUI/MLCheckBox (= 5.3.0)
+    - MLUI/MLColorPalette (= 5.3.0)
+    - MLUI/MLContextualMenu (= 5.3.0)
+    - MLUI/MLFonts (= 5.3.0)
+    - MLUI/MLGenericErrorView (= 5.3.0)
+    - MLUI/MLHtml (= 5.3.0)
+    - MLUI/MLModal (= 5.3.0)
+    - MLUI/MLRadioButton (= 5.3.0)
+    - MLUI/MLSnackBar (= 5.3.0)
+    - MLUI/MLSpacing (= 5.3.0)
+    - MLUI/MLSpinner (= 5.3.0)
+    - MLUI/MLSwitch (= 5.3.0)
+    - MLUI/MLTextView (= 5.3.0)
+    - MLUI/MLTitledMultiLineTextField (= 5.3.0)
+    - MLUI/MLTitledSingleLineTextField (= 5.3.0)
+    - MLUI/PriceView (= 5.3.0)
+    - MLUI/SnackBarView (= 5.3.0)
+    - MLUI/StyleSheet (= 5.3.0)
+  - MLUI/ActionButton (5.3.0):
+    - MLUI/Core
+  - MLUI/Core (5.3.0):
+    - MLUI/MLFonts
+  - MLUI/Helpers (5.3.0)
+  - MLUI/MLButton (5.3.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLSpinner
+    - MLUI/StyleSheet
+  - MLUI/MLCheckBox (5.3.0):
+    - MLUI/MLColorPalette
+  - MLUI/MLColorPalette (5.3.0)
+  - MLUI/MLContextualMenu (5.3.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLFonts (5.3.0):
+    - JRSwizzle (= 1.0)
+    - MLUI/Helpers
+    - MLUI/StyleSheet
+  - MLUI/MLGenericErrorView (5.3.0):
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLSpacing
+  - MLUI/MLHtml (5.3.0):
+    - MLUI/MLFonts
+  - MLUI/MLModal (5.3.0):
+    - FXBlurView (~> 1.6)
+    - MLUI/Core
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/MLRadioButton (5.3.0):
+    - MLUI/MLColorPalette
+  - MLUI/MLSnackBar (5.3.0):
+    - MLUI/Helpers
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLSpacing (5.3.0):
+    - JRSwizzle (= 1.0)
+    - MLUI/MLFonts
+  - MLUI/MLSpinner (5.3.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/MLSwitch (5.3.0):
+    - MLUI/Helpers
+    - MLUI/MLColorPalette
+  - MLUI/MLTextView (5.3.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLTitledMultiLineTextField (5.3.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLTitledSingleLineTextField
+    - MLUI/StyleSheet
+  - MLUI/MLTitledSingleLineTextField (5.3.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/PriceView (5.3.0):
+    - MLUI/Core
+    - MLUI/MLFonts
+  - MLUI/SnackBarView (5.3.0):
+    - MLUI/Helpers
+    - MLUI/MLFonts
+  - MLUI/StyleSheet (5.3.0)
+
+DEPENDENCIES:
+  - MercadoPagoSDK (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FXBlurView
+    - JRSwizzle
+    - MercadoPagoSDK
+    - MLUI
+
+SPEC CHECKSUMS:
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  MercadoPagoSDK: 7341cb870406fa49ea9dd1bfe6c938bb28219fb3
+  MLUI: 79ddaca238578600a2597c574b5f0c92dbb1bea9
+
+PODFILE CHECKSUM: a65aa48682677974f1b15c3ca3eebc7ff445548c
+
+COCOAPODS: 1.5.3

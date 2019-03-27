@@ -95,7 +95,6 @@ def enableProguardInReleaseBuilds = false
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
         applicationId "com.musety"
@@ -105,6 +104,7 @@ android {
         missingDimensionStrategy "RNN.reactNativeVersion", "reactNative57" // See note below!
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     //react navigation
     compileOptions {
@@ -138,10 +138,14 @@ android {
             }
         }
     }
+    buildToolsVersion '28.0.3'
 }
 
 dependencies {
+    implementation project(':react-native-material-shadows')
+    //implementation project(':react-native-crazy-shadow')
     implementation project(':react-native-navigation')
+    //implementation project(':react-native-mercado-pago')
     implementation project(':react-native-vector-icons')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
